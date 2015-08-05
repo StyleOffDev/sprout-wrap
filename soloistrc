@@ -68,11 +68,15 @@ node_attributes:
         - qt
         - ssh-copy-id
         - tmux
+        - emacs
+        - vim
         - tree
         - watch
         - wget
         - rbenv-binstubs
         - rbenv-gem-rehash
+        - carthage
+        - hub
       casks:
         - ccmenu
         - firefox
@@ -84,3 +88,5 @@ node_attributes:
         - virtualbox
         - xquartz
         - xscope
+        - fabric
+        - cloudfoundry-cli
