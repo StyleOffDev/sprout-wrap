@@ -17,12 +17,11 @@ recipes:
 - sprout-git
 - sprout-git::default_editor
 - sprout-git::projects
-- sprout-git::git_scripts
+- sprout-git::git_duet
 
 # development (rails)
 - sprout-rbenv
 - sprout-ruby
-- sprout-mysql
 - sprout-postgresql
 
 # apps
@@ -30,31 +29,24 @@ recipes:
 - sprout-osx-apps::flycut
 - sprout-osx-apps::shiftit
 
-# apps (editors)
-- sprout-osx-apps::textmate_preferences
-- sprout-osx-apps::macvim
-- sprout-jetbrains-editors::rubymine
-
 node_attributes:
   sprout:
     git:
-      domain: pivotallabs.com
+      domain: thinkalike.us
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: at
+          name: Alex Tamoykin
+          username: alex.tamoykin
+        - initials: jl
+          name: Jarod Long
+          username: jarod.long
+        - initials: tk
+          name: Tim Kersey
+          username: tim.kersey
       projects:
         -
           name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+          url: https://github.com/thinkalike-dev/sprout-wrap.git
     terminal:
       default_profile: 'Pro'
     settings:
@@ -84,13 +76,10 @@ node_attributes:
       casks:
         - ccmenu
         - firefox
-        - gitx-rowanj
-        - github
         - google-chrome
         - google-drive
         - google-hangouts
         - skype
-        - textmate
         - vagrant
         - virtualbox
         - xquartz
