@@ -44,9 +44,12 @@ node_attributes:
           name: Tim Kersey
           username: tim.kersey
       projects:
-        -
-          name: sprout-wrap
-          url: https://github.com/thinkalike-dev/sprout-wrap.git
+        - name: sprout-wrap
+          url: git@github.com:thinkalike-dev/sprout-wrap.git
+        - name: ios
+          url: git@github.com:thinkalike-dev/ThinkAlike-Web
+        - name: web
+          url: git@github.com:thinkalike-dev/ThinkAlike-iOS
     terminal:
       default_profile: 'Pro'
     settings:
