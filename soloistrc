@@ -46,9 +46,9 @@ node_attributes:
       projects:
         - name: sprout-wrap
           url: git@github.com:thinkalike-dev/sprout-wrap.git
-        - name: ios
-          url: git@github.com:thinkalike-dev/ThinkAlike-Web
         - name: web
+          url: git@github.com:thinkalike-dev/ThinkAlike-Web
+        - name: ios
           url: git@github.com:thinkalike-dev/ThinkAlike-iOS
     terminal:
       default_profile: 'Pro'
