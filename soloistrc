@@ -79,14 +79,7 @@ node_attributes:
         - hub
       casks:
         - ccmenu
-        - firefox
         - google-chrome
-        - google-drive
-        - google-hangouts
-        - skype
-        - vagrant
-        - virtualbox
-        - xquartz
         - xscope
         - fabric
         - cloudfoundry-cli
