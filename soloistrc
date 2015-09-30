@@ -86,3 +86,4 @@ node_attributes:
         - xscope
         - fabric
         - cloudfoundry-cli
+        - sublime-text3
