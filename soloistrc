@@ -44,9 +44,12 @@ node_attributes:
           name: Tim Kersey
           username: tim.kersey
       projects:
-        -
-          name: sprout-wrap
-          url: https://github.com/thinkalike-dev/sprout-wrap.git
+        - name: sprout-wrap
+          url: git@github.com:thinkalike-dev/sprout-wrap.git
+        - name: web
+          url: git@github.com:thinkalike-dev/ThinkAlike-Web
+        - name: ios
+          url: git@github.com:thinkalike-dev/ThinkAlike-iOS
     terminal:
       default_profile: 'Pro'
     settings:
@@ -68,6 +71,7 @@ node_attributes:
         - qt
         - ssh-copy-id
         - tmux
+        - reattach-to-user-namespace
         - emacs
         - vim
         - tree
@@ -79,14 +83,8 @@ node_attributes:
         - hub
       casks:
         - ccmenu
-        - firefox
         - google-chrome
-        - google-drive
-        - google-hangouts
-        - skype
-        - vagrant
-        - virtualbox
-        - xquartz
         - xscope
         - fabric
         - cloudfoundry-cli
+        - sublime-text3
