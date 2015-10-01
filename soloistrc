@@ -71,6 +71,7 @@ node_attributes:
         - qt
         - ssh-copy-id
         - tmux
+        - reattach-to-user-namespace
         - emacs
         - vim
         - tree
